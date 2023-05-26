@@ -51,15 +51,15 @@ function setDiceeForPlayer2(){
 function whoIsWinner(a, b){
     console.log(a)
     if(a > b){
-        document.querySelector('h1').innerHTML = 'Player 1 Won. Congrats!'
+        document.querySelector('h2').innerHTML = 'Player 1 Won. Congrats!'
     }
 
     else if(a < b){
-        document.querySelector('h1').innerHTML = 'Player 2 Won. Congrats!'
+        document.querySelector('h2').innerHTML = 'Player 2 Won. Congrats!'
     }
 
     else {
-        document.querySelector('h1').innerHTML = 'No one Won... Try one more time.'
+        document.querySelector('h2').innerHTML = 'No one Won... Try one more time.'
     }
 }
 whoIsWinner(setDiceeForPlayer1(),setDiceeForPlayer2())
