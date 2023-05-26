@@ -49,7 +49,6 @@ function setDiceeForPlayer2(){
 }
 
 function whoIsWinner(a, b){
-    console.log(a)
     if(a > b){
         document.querySelector('h2').innerHTML = 'Player 1 Won. Congrats!'
     }
